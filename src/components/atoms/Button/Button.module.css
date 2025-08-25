@@ -1,0 +1,26 @@
+.button {
+  border: 1px solid white;
+  font: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 18px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(90deg, var(--primary), var(--primary2));
+  border-color: transparent;
+  color: var(--text-contrast);
+  font-weight: 600;
+}
+
+.disabled,
+.disabled:active {
+  cursor: default;
+  background-color: lightgray;
+  border-color: lightgray;
+  color: gray;
+}
