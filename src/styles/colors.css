@@ -1,0 +1,38 @@
+/* 
+  Define colors in styles/colors.css run `node scripts/sync-colors.js`
+  to generate colors in TS and Tailwind.
+*/
+:root {
+  /* Tokens */
+  --primary: #597675;
+  --primary2: #79a57c;
+  --secondary: #e3336b;
+  --tertiary: #ff8800;
+  --blank: #fffdfb;
+
+  /* Roles */
+  --background: var(--blank);
+  --background2: var(--primary2);
+  --text: var(--primary);
+  --text-contrast: var(--blank);
+}
+
+/* Default things to configure */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
