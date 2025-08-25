@@ -1,103 +1,108 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-6 sm:px-20 py-12 flex flex-col">
+      {/* Header */}
+      <header className="text-center sm:text-left mb-12">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-2">Manuel D. Andaya</h1>
+        <p className="text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400">Software Developer</p>
+        <p className="mt-2 text-sm sm:text-base text-gray-500 dark:text-gray-400">mdandaya.dev@gmail.com • (604) 356-5333 • Vancouver, BC</p>
+        <p className="text-sm sm:text-base text-gray-500 dark:text-gray-400">
+          <a href="https://github.com/mdandaya" className="underline hover:text-gray-700 dark:hover:text-gray-200" target="_blank" rel="noopener noreferrer">
+            github.com/mdandaya
+          </a>{" "}
+          •{" "}
+          <a
+            href="https://linkedin.com/in/mdandaya"
+            className="underline hover:text-gray-700 dark:hover:text-gray-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/mdandaya
+          </a>{" "}
+          •{" "}
+          <a href="https://mdandaya.github.io" className="underline hover:text-gray-700 dark:hover:text-gray-200" target="_blank" rel="noopener noreferrer">
+            mdandaya.github.io
+          </a>
+        </p>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+      {/* Main Content */}
+      <main className="flex-1 space-y-8">
+        {/* Summary */}
+        <section>
+          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-3xl">
+            Software Developer with 4+ years building scalable web and mobile applications, experienced in back-end services and API integrations. Strong
+            front-end expertise with proven ability to contribute across the full stack.
+          </p>
+        </section>
+
+        {/* Technical Skills */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">Technical Skills</h2>
+          <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>
+              <strong>Front-End:</strong> React.js, React Native, Next.js (SSR), Expo, Redux, Context API, WebSocket, Memoization, Zod (Schema Validation)
+            </li>
+            <li>
+              <strong>UI & Styling:</strong> Tailwind CSS, JSS / Module CSS, Emotion, MUI, Responsive Design, Atomic Design
+            </li>
+            <li>
+              <strong>Back-End & Cloud:</strong> Node.js, Express, PostgreSQL, REST APIs, Firebase, AWS (S3, Cognito), Google APIs (Auth, Maps, Places), ASP.NET
+              (MVC)
+            </li>
+            <li>
+              <strong>Languages & Tools:</strong> TypeScript, JavaScript (ES6+, ESNext), Java, C#, Python, SQL, Git, Jest, Confluence, Jira
+            </li>
+          </ul>
+        </section>
+
+        {/* Work Experience */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">Work Experience</h2>
+          <div className="space-y-4 text-gray-700 dark:text-gray-300">
+            <div>
+              <p className="font-semibold">Senior Developer – Tuktu Care, Vancouver, BC</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Mar 2021 – Present</p>
+              <ul className="list-disc list-inside mt-2 space-y-1">
+                <li>Led 4 major product launches across web, iOS, and Android, reaching 2,000+ active users.</li>
+                <li>Extended React Native mobile apps with custom Android and iOS native modules.</li>
+                <li>Built core web app features in React, Next.js, and TypeScript with Atomic Design.</li>
+                <li>Designed and implemented back-end services with Python, PostgreSQL, and REST APIs.</li>
+                <li>Optimized components with memoization and lazy loading, improving performance by 10%.</li>
+                <li>Redesigned UI/UX with Tailwind CSS, JSS, and Module CSS for responsive, accessible interfaces.</li>
+                <li>Integrated AWS and Google APIs for authentication, location services, and file storage.</li>
+                <li>Monitored production systems, maintaining a sub-1% crash rate.</li>
+                <li>Mentored junior developers and contributed to API design.</li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="font-semibold">Front-End Developer (Contract) – EarthON Foundation, Remote</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Jan 2025 – Aug 2025</p>
+              <ul className="list-disc list-inside mt-2 space-y-1">
+                <li>Developed Ekta Web, a mobile-first AI chatbot with React, Next.js, TypeScript, and Tailwind.</li>
+                <li>Implemented back-end integrations via AWS S3 and Cognito, expanding chatbot functionality.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Education */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">Education</h2>
+          <p className="text-gray-700 dark:text-gray-300">British Columbia Institute of Technology, Burnaby, BC</p>
+          <p className="text-gray-500 dark:text-gray-400 text-sm">Diploma in Computer Systems Technology – Client Server Option (Sep 2018 – Jun 2020)</p>
+        </section>
+
+        {/* Coming Soon */}
+        <section className="text-center mt-12">
+          <h3 className="text-3xl font-bold">More Projects Coming Soon</h3>
+          <p className="text-gray-600 dark:text-gray-400 mt-2">Check back soon for updates and new projects!</p>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+      {/* Footer */}
+      <footer className="mt-auto py-6 text-center text-sm text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Manuel D. Andaya</footer>
     </div>
   );
 }
