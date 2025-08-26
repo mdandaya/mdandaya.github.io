@@ -5,10 +5,12 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-2">Manuel D. Andaya</h1>
         <p className="text-xl text-gray-600 dark:text-gray-400">Software Developer</p>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
+          Vancouver, BC •{" "}
           <a href="mailto:mdandaya.dev@gmail.com" className="underline hover:text-blue-500">
             mdandaya.dev@gmail.com
-          </a>{" "}
-          •{" "}
+          </a>
+        </p>
+        <p className="mt-2 text-gray-500 dark:text-gray-400">
           <a href="https://github.com/mdandaya" className="underline hover:text-blue-500">
             GitHub
           </a>{" "}
@@ -16,6 +18,10 @@ export default function Home() {
           <a href="https://linkedin.com/in/mdandaya" className="underline hover:text-blue-500">
             LinkedIn
           </a>
+        </p>
+        <p className="mt-4 max-w-xl mx-auto text-center">
+          Software Developer with 4+ years building scalable web and mobile applications, experienced in back-end services and API integrations. Strong
+          front-end expertise with proven ability to contribute across the full stack.
         </p>
       </header>
 
@@ -42,31 +48,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Experience */}
+      {/* Work Experience */}
       <section className="w-full max-w-4xl flex flex-col gap-8">
-        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+        <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
 
-        {/* Tuktu Care */}
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Senior Developer – Tuktu Care, Vancouver, BC</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Mar 2021 – Present</p>
+          <h3 className="font-bold text-lg mb-1">Senior Developer / Team Lead – Tuktu Care, Vancouver, BC</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – Present</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
               Led 4 major product launches –{" "}
-              <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
-                Tuktu Connect
-              </a>
-              ,{" "}
-              <a href="https://pulse.tuktu.ai/" className="underline hover:text-blue-500">
-                Tuktu Pulse
-              </a>
-              ,{" "}
               <a href="https://apps.apple.com/ca/app/tuktu/id1588765065" className="underline hover:text-blue-500">
                 Tuktu
               </a>
               ,{" "}
               <a href="https://apps.apple.com/us/app/tuktu-provider/id1613415952" className="underline hover:text-blue-500">
                 Tuktu Provider
+              </a>
+              ,{" "}
+              <a href="https://pulse.tuktu.ai/" className="underline hover:text-blue-500">
+                Tuktu Pulse
+              </a>
+              ,{" "}
+              <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
+                Tuktu Connect
               </a>{" "}
               – across web, iOS, and Android, reaching 2,000+ active users.
             </li>
@@ -83,10 +88,9 @@ export default function Home() {
           </ul>
         </div>
 
-        {/* EarthON Foundation */}
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Front-End Developer (Contract) – EarthON Foundation, Remote</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Jan 2025 – Aug 2025</p>
+          <h3 className="font-bold text-lg mb-1">Front-End Developer – EarthON Foundation, Remote</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2025 – June 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
               Developed{" "}
@@ -99,13 +103,27 @@ export default function Home() {
               Implemented back-end integrations via AWS S3 (image/audio uploads) and Cognito (OTP-based login), expanding chatbot functionality and secure user
               access.
             </li>
+            <li>Authored Confluence handoff documentation, ensuring seamless team transition.</li>
           </ul>
         </div>
 
-        {/* Zenwallet Internship */}
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Software Developer Intern – Payment Source, Vancouver, BC</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Mar 2020 – May 2020</p>
+          <h3 className="font-bold text-lg mb-1">Web Developer – Surya Energy Consulting, Remote</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">July 2020 – August 2020</p>
+          <ul className="list-disc list-inside space-y-2 text-sm">
+            <li>Deployed and hosted the site on DigitalOcean for reliable performance.</li>
+            <li>Designed a responsive layout to effectively showcase company services.</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Internships */}
+      <section className="w-full max-w-4xl flex flex-col gap-8">
+        <h2 className="text-2xl font-semibold mb-4">Internships</h2>
+
+        <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <h3 className="font-bold text-lg mb-1">Software Developer Intern – Payment Source Inc., Vancouver, BC</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2020 – May 2020</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
               Developed the{" "}
@@ -117,10 +135,9 @@ export default function Home() {
           </ul>
         </div>
 
-        {/* airG Inc. */}
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Application Developer – airG Inc., Vancouver, BC</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Sep 2019 – Dec 2019</p>
+          <h3 className="font-bold text-lg mb-1">Software Developer – airG Inc., Vancouver, BC</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2019 – December 2019</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
               Assembled a screen mirroring solution to allow a presenter to mirror their smartphone screen onto a boardroom display. When idle, it showed
@@ -135,7 +152,16 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="text-center mt-12 text-gray-500 dark:text-gray-400">More projects coming soon...</footer>
+      {/* Education */}
+      <section className="w-full max-w-4xl bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <h2 className="text-2xl font-semibold mb-4">Education</h2>
+        <p className="font-medium">Computer Systems Technology (College Diploma) – British Columbia Institute of Technology, Burnaby, BC</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>Client Server Option focused on MVC patterns in C# ASP.NET</li>
+          <li>Graduated with Distinction (GPA 4.0/4.33)</li>
+        </ul>
+      </section>
     </div>
   );
 }
