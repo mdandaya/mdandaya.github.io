@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="font-medium mb-1">Back-End & Cloud</h3>
-            <p>Node.js • Express • PostgreSQL • REST APIs • Firebase • AWS (S3, Cognito) • Google APIs (Auth, Maps, Places) • ASP.NET (MVC)</p>
+            <p>Node.js • Express • PostgreSQL • REST APIs • Firebase • AWS (S3, Cognito, EC2) • Google APIs (Auth, Maps, Places) • ASP.NET (MVC)</p>
           </div>
           <div>
             <h3 className="font-medium mb-1">Languages & Tools</h3>
@@ -77,20 +77,20 @@ export default function Home() {
             </li>
             <li>Extended React Native mobile apps with custom Android and iOS native modules.</li>
             <li>Built core web app features in React, Next.js, and TypeScript with Atomic Design.</li>
-            <li>Designed and implemented back-end services with Python, PostgreSQL, and REST APIs.</li>
+            <li>Designed and implemented back-end with Python, PostgreSQL, and REST APIs, hosted on AWS EC2.</li>
             <li>Optimized components with memoization and lazy loading, improving performance by 10%.</li>
             <li>
               Redesigned UI/UX with Tailwind CSS, JSS, and Module CSS, delivering responsive, accessible interfaces supporting 6,000+ hours of care services.
             </li>
-            <li>Integrated AWS (S3, Cognito) and Google APIs (Maps, Places, Auth) for secure authentication, location services, and file storage.</li>
+            <li>Integrated Google APIs (Maps, Places) and AWS (S3, Cognito) for location services, file storage, and authentication.</li>
             <li>Monitored and debugged production systems with Firebase and Google Analytics, maintaining a sub-1% crash rate.</li>
             <li>Mentored junior developers, contributed to API design, and standardized coding practices in sprints.</li>
           </ul>
         </div>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Front-End Developer – EarthON Foundation, Remote</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2025 – June 2025</p>
+          <h3 className="font-bold text-lg mb-1">Front-End Developer (Contract) – EarthON Foundation, Remote</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2025 – August 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
               Developed{" "}
@@ -111,8 +111,15 @@ export default function Home() {
           <h3 className="font-bold text-lg mb-1">Web Developer – Surya Energy Consulting, Remote</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">July 2020 – August 2020</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
-            <li>Deployed and hosted the site on DigitalOcean for reliable performance.</li>
-            <li>Designed a responsive layout to effectively showcase company services.</li>
+            <li>
+              Built{" "}
+              <a href="https://www.suryaenergyconsulting.com/" className="underline hover:text-blue-500">
+                suryaenergyconsulting.com
+              </a>
+              , a responsive, SEO-friendly website using WordPress and custom themes.
+            </li>
+            <li>Managed hosting and deployment on DigitalOcean, ensuring stable uptime and performance.</li>
+            <li>Optimized content and layout for user experience and accessibility.</li>
           </ul>
         </div>
       </section>
@@ -155,7 +162,7 @@ export default function Home() {
       {/* Education */}
       <section className="w-full max-w-4xl bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
-        <p className="font-medium">Computer Systems Technology (College Diploma) – British Columbia Institute of Technology, Burnaby, BC</p>
+        <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
         <ul className="list-disc list-inside space-y-2 text-sm">
           <li>Client Server Option focused on MVC patterns in C# ASP.NET</li>
