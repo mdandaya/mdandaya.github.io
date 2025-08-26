@@ -26,24 +26,26 @@ export default function Home() {
       </header>
 
       {/* Technical Skills */}
-      <section className="w-full max-w-4xl bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+      <section className="w-full max-w-4xl flex flex-col gap-8">
         <h2 className="text-2xl font-semibold mb-4">Technical Skills</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-          <div>
-            <h3 className="font-medium mb-1">Front-End</h3>
-            <p>React.js • React Native • Next.js (SSR) • Expo • Redux • Context API • WebSocket • Memoization • Zod (Schema Validation)</p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-1">UI & Styling</h3>
-            <p>Tailwind CSS • JSS / Module CSS • Emotion (CSS-in-JS) • MUI • Responsive Design • Atomic Design</p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-1">Back-End & Cloud</h3>
-            <p>Node.js • Express • PostgreSQL • REST APIs • Firebase • AWS (S3, Cognito, EC2) • Google APIs (Auth, Maps, Places) • ASP.NET (MVC)</p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-1">Languages & Tools</h3>
-            <p>TypeScript • JavaScript (ES6+, ESNext) • Java • C# • Python • SQL • Git • Jest • Confluence • Jira</p>
+        <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+            <div>
+              <h3 className="font-medium mb-1">Front-End</h3>
+              <p>React.js • React Native • Next.js (SSR) • Expo • Redux • Context API • WebSocket • Memoization • Zod (Schema Validation)</p>
+            </div>
+            <div>
+              <h3 className="font-medium mb-1">UI & Styling</h3>
+              <p>Tailwind CSS • JSS / Module CSS • Emotion (CSS-in-JS) • MUI • Responsive Design • Atomic Design</p>
+            </div>
+            <div>
+              <h3 className="font-medium mb-1">Back-End & Cloud</h3>
+              <p>Node.js • Express • PostgreSQL • REST APIs • Firebase • AWS (S3, Cognito, EC2) • Google APIs (Auth, Maps, Places) • ASP.NET (MVC)</p>
+            </div>
+            <div>
+              <h3 className="font-medium mb-1">Languages & Tools</h3>
+              <p>TypeScript • JavaScript (ES6+, ESNext) • Java • C# • Python • SQL • Git • Jest • Confluence • Jira</p>
+            </div>
           </div>
         </div>
       </section>
@@ -159,15 +161,32 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Personal Projects */}
+      <section className="w-full max-w-4xl flex flex-col gap-8">
+        <h2 className="text-2xl font-semibold mb-4">Personal Projects</h2>
+        <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <h3 className="font-bold text-lg mb-1">mdandaya.github.io</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">June 2020 – present</p>
+          <ul className="list-disc list-inside space-y-2 text-sm">
+            <li>
+              Developed a personal portfolio site using Next.js, React.js, Tailwind CSS, and TypeScript. Automated deployment and build processes via GitHub
+              Actions YAML workflow.
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* Education */}
-      <section className="w-full max-w-4xl bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+      <section className="w-full max-w-4xl flex flex-col gap-8">
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
-        <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
-        <ul className="list-disc list-inside space-y-2 text-sm">
-          <li>Client Server Option focused on MVC patterns in C# ASP.NET</li>
-          <li>Graduated with Distinction (GPA 4.0/4.33)</li>
-        </ul>
+        <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
+          <ul className="list-disc list-inside space-y-2 text-sm">
+            <li>Client Server Option focused on MVC patterns in C# ASP.NET</li>
+            <li>Graduated with Distinction (GPA 4.0/4.33)</li>
+          </ul>
+        </div>
       </section>
     </div>
   );
