@@ -143,11 +143,11 @@ export default function Home() {
               Assembled a screen mirroring solution to allow a presenter to mirror their smartphone screen onto a boardroom display. When idle, it showed
               current and next scheduled meetings.
             </li>
+            <li>Developed a boardroom screen mirroring system with idle meeting schedule display; built deployment scripts for easy mass rollout.</li>
             <li>
-              Adapted open-source LazyCast and R Pi Play (Python & C++). Developed an ASP.NET Core Web API on Raspberry Pi to fetch and process meeting
-              schedules from Microsoft Exchange Web Service.
+              Adapted LazyCast (Python) and RPiPlay (C++), and created an ASP.NET Core API on Raspberry Pi to fetch Exchange schedules; added VPN support and
+              MAC filtering for secure remote presentations.
             </li>
-            <li>Evaluated VPNs for remote presentations and MAC filtering to block unauthorized users. Created scripts for mass deployment and AutoStart.</li>
           </ul>
         </div>
       </section>
