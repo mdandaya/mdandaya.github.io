@@ -25,7 +25,7 @@ export const FilePicker = ({ value, onChange, component, componentContainerProps
           {component}
         </Div>
       ) : (
-        <Button preset="light" style={{ justifyContent: "flex-start" }} onClick={handleImageClick}>
+        <Button style={{ justifyContent: "flex-start" }} onClick={handleImageClick}>
           <Image src={"/icons/plus-symbol.svg"} alt="" width={16} height={17} />
           <Text>{value ? "1 file selected" : "Upload files"}</Text>
         </Button>

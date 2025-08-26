@@ -43,24 +43,23 @@ export const OptionsMenuTrigger = ({ component, optionsStyle, optionsClassName, 
   // Touch hold logic: if the user touches and holds for 500ms, open the menu.
   const touchHoldTimeout = useRef<number | null>(null);
 
-  const handleTouchStart = () => {
-    if (disabled) return;
-    touchHoldTimeout.current = window.setTimeout(() => {
-      setIsToggled(true);
-      touchHoldTimeout.current = null;
-    }, 500);
-  };
-
-  const handleTouchEnd = () => {
-    if (touchHoldTimeout.current) {
-      clearTimeout(touchHoldTimeout.current);
-      touchHoldTimeout.current = null;
-    }
-  };
-
   // Detect the component's direct parent and attach touch events to it.
   useEffect(() => {
     const parentElement = ref.current?.parentElement;
+    const handleTouchStart = () => {
+      if (disabled) return;
+      touchHoldTimeout.current = window.setTimeout(() => {
+        setIsToggled(true);
+        touchHoldTimeout.current = null;
+      }, 500);
+    };
+
+    const handleTouchEnd = () => {
+      if (touchHoldTimeout.current) {
+        clearTimeout(touchHoldTimeout.current);
+        touchHoldTimeout.current = null;
+      }
+    };
     if (parentElement) {
       parentElement.addEventListener("touchstart", handleTouchStart);
       parentElement.addEventListener("touchend", handleTouchEnd);

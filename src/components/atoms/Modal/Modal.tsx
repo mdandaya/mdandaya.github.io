@@ -72,12 +72,7 @@ export const Modal = ({
         <Div
           {...props}
           onClick={(e) => e.stopPropagation()}
-          className={[
-            styles.content,
-            isShowing ? styles.shown : styles.hidden,
-            side === "right" ? styles.rightSide : "",
-            className ?? "",
-          ].join(" ")}
+          className={[styles.content, isShowing ? styles.shown : styles.hidden, side === "right" ? styles.rightSide : "", className ?? ""].join(" ")}
         >
           {children}
         </Div>

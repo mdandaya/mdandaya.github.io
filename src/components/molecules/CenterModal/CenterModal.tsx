@@ -14,26 +14,13 @@ interface Props {
   className?: string;
 }
 
-export const CenterModal = ({
-  visible,
-  setVisible,
-  containerStyle,
-  wrapperStyle,
-  children,
-  closeOnOutsideClick,
-  className,
-}: Props) => {
+export const CenterModal = ({ visible, setVisible, containerStyle, wrapperStyle, children, closeOnOutsideClick, className }: Props) => {
   const outerRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {
-      if (
-        visible &&
-        closeOnOutsideClick &&
-        outerRef.current?.contains(event.target as Node) &&
-        !innerRef.current?.contains(event.target as Node)
-      ) {
+      if (visible && closeOnOutsideClick && outerRef.current?.contains(event.target as Node) && !innerRef.current?.contains(event.target as Node)) {
         setVisible?.(false);
       }
     };
@@ -41,7 +28,7 @@ export const CenterModal = ({
     return () => {
       window.removeEventListener("mousedown", handleOutsideClick);
     };
-  }, [visible, setVisible]);
+  }, [visible, setVisible, closeOnOutsideClick]);
 
   const [opacity, setOpacity] = useState<number>(visible ? 1 : 0);
   useEffect(() => {

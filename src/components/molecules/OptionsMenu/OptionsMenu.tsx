@@ -17,15 +17,7 @@ interface Props {
   offset?: Offset;
 }
 
-export const OptionsMenu = ({
-  visible,
-  onClickOutside,
-  onClickInside,
-  className,
-  style,
-  children,
-  offset = { x: 10, y: 10 },
-}: Props) => {
+export const OptionsMenu = ({ visible, onClickOutside, onClickInside, className, style, children, offset = { x: 10, y: 10 } }: Props) => {
   const ref = useRef<HTMLDivElement | null>(null);
   // Holds the last mouse or touch position.
   const [menuPosition, setMenuPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
@@ -77,12 +69,13 @@ export const OptionsMenu = ({
 
   // Clone and modify valid children to include onClick handling.
   const ModifiedChildren = () => {
-    const validChildren = React.Children.toArray(children).filter(
-      (child): child is React.ReactElement<{ onClick?: React.MouseEventHandler<any> }> => React.isValidElement(child)
+    const validChildren = React.Children.toArray(children).filter((child): child is React.ReactElement<{ onClick?: React.MouseEventHandler<HTMLElement> }> =>
+      React.isValidElement(child)
     );
+
     return validChildren.map((child) =>
       React.cloneElement(child, {
-        onClick: (event: React.MouseEvent<any>) => {
+        onClick: (event: React.MouseEvent<HTMLElement>) => {
           handleClickChild();
           if (child.props.onClick) {
             child.props.onClick(event);
