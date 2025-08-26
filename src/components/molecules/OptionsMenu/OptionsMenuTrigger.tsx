@@ -18,15 +18,7 @@ interface Props {
   offset?: { x?: number; y?: number };
 }
 
-export const OptionsMenuTrigger = ({
-  component,
-  optionsStyle,
-  optionsClassName,
-  offset,
-  children,
-  persistWhenClicked,
-  disabled,
-}: Props) => {
+export const OptionsMenuTrigger = ({ component, optionsStyle, optionsClassName, offset, children, persistWhenClicked, disabled }: Props) => {
   // Track window focus.
   const [isFocused, setIsFocused] = useState(document.hasFocus());
   useEffect(() => {
@@ -51,7 +43,7 @@ export const OptionsMenuTrigger = ({
   // Touch hold logic: if the user touches and holds for 500ms, open the menu.
   const touchHoldTimeout = useRef<number | null>(null);
 
-  const handleTouchStart = (event: TouchEvent) => {
+  const handleTouchStart = () => {
     if (disabled) return;
     touchHoldTimeout.current = window.setTimeout(() => {
       setIsToggled(true);
@@ -59,7 +51,7 @@ export const OptionsMenuTrigger = ({
     }, 500);
   };
 
-  const handleTouchEnd = (event: TouchEvent) => {
+  const handleTouchEnd = () => {
     if (touchHoldTimeout.current) {
       clearTimeout(touchHoldTimeout.current);
       touchHoldTimeout.current = null;
