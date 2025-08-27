@@ -32,7 +32,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
             <div>
               <h3 className="font-medium mb-1">Front-End</h3>
-              <p>React.js • React Native • Next.js (SSR) • Expo • Redux • Context API • WebSocket • Memoization • Zod (Schema Validation)</p>
+              <p>React.js • React Native • Next.js (SSR) • Expo • Redux • Context API • Memoization • WebSocket • Zod (Schema Validation)</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">UI & Styling</h3>
@@ -40,11 +40,11 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-medium mb-1">Back-End & Cloud</h3>
-              <p>Node.js • Express • PostgreSQL • REST APIs • Firebase • AWS (S3, Cognito, EC2) • Google APIs (Auth, Maps, Places) • ASP.NET (MVC)</p>
+              <p>Node.js • Express • REST APIs • PostgreSQL • AWS (S3, Cognito, EC2) • Firebase • Google APIs • Stripe • ASP.NET (MVC) • WordPress</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">Languages & Tools</h3>
-              <p>TypeScript • JavaScript (ES6+, ESNext) • Java • C# • Python • SQL • Git • Jest • Confluence • Jira</p>
+              <p>TypeScript • JavaScript (ES6+, ESNext) • Java • C# • Python • SQL • Git • GitHub Actions • Jest • Confluence • Jira</p>
             </div>
           </div>
         </div>
