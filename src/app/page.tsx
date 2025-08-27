@@ -55,11 +55,11 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Senior Developer / Team Lead – Tuktu Care, Vancouver, BC</h3>
+          <h3 className="font-bold text-lg mb-1">Senior Developer / Team Lead – Tuktu Care (Healthcare Platform), Vancouver, BC</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – Present</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Led 4 major product launches –{" "}
+              Directed 4 major product launches –{" "}
               <a href="https://apps.apple.com/ca/app/tuktu/id1588765065" className="underline hover:text-blue-500">
                 Tuktu
               </a>
@@ -77,21 +77,18 @@ export default function Home() {
               </a>{" "}
               – across web, iOS, and Android, reaching 2,000+ active users.
             </li>
-            <li>Extended React Native mobile apps with custom Android and iOS native modules.</li>
-            <li>Built core web app features in React, Next.js, and TypeScript with Atomic Design.</li>
-            <li>Designed and implemented back-end with Python, PostgreSQL, and REST APIs, hosted on AWS EC2.</li>
-            <li>Optimized components with memoization and lazy loading, improving performance by 10%.</li>
-            <li>
-              Redesigned UI/UX with Tailwind CSS, JSS, and Module CSS, delivering responsive, accessible interfaces supporting 6,000+ hours of care services.
-            </li>
-            <li>Integrated Google APIs (Maps, Places) and AWS (S3, Cognito) for location services, file storage, and authentication.</li>
-            <li>Monitored and debugged production systems with Firebase and Google Analytics, maintaining a sub-1% crash rate.</li>
-            <li>Mentored junior developers, contributed to API design, and standardized coding practices in sprints.</li>
+            <li>Mentored 3 junior developers on a 6-person team, standardized coding practices, and contributed to API design.</li>
+            <li>Architected back-end with Python, PostgreSQL, and REST APIs on AWS EC2.</li>
+            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>
+            <li>Extended React Native apps with custom Android and iOS native modules.</li>
+            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location services, notifications, payments, storage, and authentication.</li>
+            <li>Boosted performance by 10% through memoization and lazy loading strategies.</li>
+            <li>Redesigned UI/UX with Tailwind CSS and Module CSS, supporting 6,000+ hours of care services.</li>
           </ul>
         </div>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Front-End Developer (Contract) – EarthON Foundation, Remote</h3>
+          <h3 className="font-bold text-lg mb-1">Front-End Developer (Contract) – EarthON Foundation (Non-Profit), Remote</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2025 – August 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
@@ -99,13 +96,10 @@ export default function Home() {
               <a href="https://web.ekta.chat/" className="underline hover:text-blue-500">
                 Ekta Web
               </a>
-              , a mobile-first AI chatbot powered by OpenAI GPT APIs, with React, Next.js, TypeScript, and Tailwind.
+              , a mobile-first AI chatbot for farmers with Next.js, TypeScript, and Tailwind.
             </li>
-            <li>
-              Implemented back-end integrations via AWS S3 (image/audio uploads) and Cognito (OTP-based login), expanding chatbot functionality and secure user
-              access.
-            </li>
-            <li>Authored Confluence handoff documentation, ensuring seamless team transition.</li>
+            <li>Designed and implemented responsive voice recording, image capture, and file upload features for both mobile and desktop.</li>
+            <li>Collaborated with back-end to design and integrate OpenAI GPT APIs for chatbot functionality.</li>
           </ul>
         </div>
 
@@ -166,14 +160,15 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Personal Projects</h2>
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
           <h3 className="font-bold text-lg mb-1">mdandaya.github.io</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">June 2020 – present</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">June 2020 – Present</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Developed a personal portfolio site using Next.js, React.js, Tailwind CSS, and TypeScript. Automated deployment and build processes via GitHub
+              Engineered a personal portfolio site using Next.js, React.js, Tailwind CSS, and TypeScript. Automated deployment and build processes via GitHub
               Actions YAML workflow.
             </li>
           </ul>
         </div>
+        <p className="mt-2 text-gray-500 dark:text-gray-400 italic">More coming soon…</p>
       </section>
 
       {/* Education */}
@@ -183,8 +178,8 @@ export default function Home() {
           <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
-            <li>Client Server Option focused on MVC patterns in C# ASP.NET</li>
-            <li>Graduated with Distinction (GPA 4.0/4.33)</li>
+            <li>Specialized in MVC Patterns in C# ASP.NET (Client Server Option)</li>
+            <li>Graduated with Distinction (GPA 4.0+)</li>
           </ul>
         </div>
       </section>
