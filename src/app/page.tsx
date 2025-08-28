@@ -75,15 +75,14 @@ export default function Home() {
               <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
                 Tuktu Connect
               </a>{" "}
-              – across web, iOS, and Android, reaching 2,000+ active users.
+              –across web, iOS, and Android, reaching 10,000+ active users and supporting 38,000+ hours of care services.
             </li>
-            <li>Mentored 3 junior developers on a 6-person team, standardized coding practices, and contributed to API design.</li>
-            <li>Architected back-end with Python, PostgreSQL, and REST APIs on AWS EC2.</li>
-            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>
-            <li>Extended React Native apps with custom Android and iOS native modules.</li>
-            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location services, notifications, payments, storage, and authentication.</li>
-            <li>Boosted performance by 10% through memoization and lazy loading strategies.</li>
-            <li>Redesigned UI/UX with Tailwind CSS and Module CSS, supporting 6,000+ hours of care services.</li>
+            <li>Mentored 3 junior developers on a 6-person team, standardized coding practices (Airbnb React/JSX style guide), and shaped API design.</li>{" "}
+            <li>Architected back-end with Python, PostgreSQL, and REST APIs on AWS EC2.</li>{" "}
+            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>{" "}
+            <li>Extended React Native apps with custom iOS/Android native modules.</li>{" "}
+            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location, notifications, payments, storage, and authentication.</li>{" "}
+            <li>Boosted performance by 10% through memoization and lazy loading strategies</li> <li>Revamped UI/UX with Tailwind CSS and Module CSS.</li>{" "}
           </ul>
         </div>
 
@@ -163,7 +162,7 @@ export default function Home() {
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">June 2020 – Present</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Engineered a personal portfolio site using Next.js, React.js, Tailwind CSS, and TypeScript. Automated deployment and build processes via GitHub
+              Engineered a personal portfolio site using Next.js, React.js, Tailwind CSS, and TypeScript; automated deployment and build processes via GitHub
               Actions YAML workflow.
             </li>
           </ul>
