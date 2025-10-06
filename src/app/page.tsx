@@ -75,7 +75,7 @@ export default function Home() {
               <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
                 Tuktu Connect
               </a>{" "}
-              –across web, iOS, and Android, reaching 10,000+ active users and supporting 38,000+ hours of care services.
+              –across web, iOS, and Android, supporting 5,000+ families and caregivers through 50,000+ hours of care services.
             </li>
             <li>Mentored 3 junior developers on a 6-person team, standardized coding practices (Airbnb React/JSX style guide), and shaped API design.</li>{" "}
             <li>Architected back-end with Python, PostgreSQL, and REST APIs on AWS EC2.</li>{" "}
