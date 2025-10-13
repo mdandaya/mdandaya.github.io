@@ -55,7 +55,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Senior Developer / Team Lead – Tuktu Care (Healthcare Platform), Vancouver, BC</h3>
+          <h3 className="font-bold text-lg mb-1">Software Developer / Team Lead – Tuktu Care (Healthcare Platform), Vancouver, BC</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – Present</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
