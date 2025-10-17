@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-medium mb-1">UI & Styling</h3>
-              <p>Tailwind CSS • JSS / Module CSS • Emotion (CSS-in-JS) • Material UI • Atomic Design • Responsive & Mobile-first Design</p>
+              <p>CSS • Sass • Less • Tailwind • Module CSS • Emotion • Material UI • Atomic Design • Responsive & Mobile-first Design</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">Back-End & Cloud</h3>
