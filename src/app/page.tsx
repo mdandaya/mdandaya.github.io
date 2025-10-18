@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-medium mb-1">Back-End & Cloud</h3>
-              <p>Node.js • Express • REST APIs • PostgreSQL • ASP.NET (MVC) • Firebase • AWS (S3, Cognito, EC2) • Google APIs • Stripe • WordPress</p>
+              <p>Node.js • Express • RESTful APIs • PostgreSQL • ASP.NET • Firebase • AWS (S3, Cognito, EC2) • Google APIs • Stripe • WordPress</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">Languages & Tools</h3>
@@ -55,11 +55,11 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Senior Developer – Tuktu Care (Healthcare Platform), Vancouver, BC</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – Present</p>
+          <h3 className="font-bold text-lg mb-1">Senior Developer – Tuktu Care (Senior Care Platform), Vancouver, BC</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – September 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Directed 4 major product launches –{" "}
+              Headed 4 major product launches –{" "}
               <a href="https://apps.apple.com/ca/app/tuktu/id1588765065" className="underline hover:text-blue-500">
                 Tuktu
               </a>
@@ -75,14 +75,15 @@ export default function Home() {
               <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
                 Tuktu Connect
               </a>{" "}
-              –across web, iOS, and Android, supporting 5,000+ families and caregivers through 50,000+ hours of care services.
+              – across web, iOS, and Android, supporting 5,000+ families and caregivers through 50,000+ hours of care services.
             </li>
-            <li>Mentored 3 junior developers on a 6-person team, standardized coding practices (Airbnb React/JSX style guide), and shaped API design.</li>{" "}
-            <li>Architected back-end with Python, PostgreSQL, and REST APIs on AWS EC2.</li>{" "}
-            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>{" "}
-            <li>Extended React Native apps with custom iOS/Android native modules.</li>{" "}
-            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location, notifications, payments, storage, and authentication.</li>{" "}
-            <li>Boosted performance by 10% through memoization and lazy loading strategies</li> <li>Revamped UI/UX with Tailwind CSS and Module CSS.</li>{" "}
+            <li>Mentored 3 junior developers on a 6-person, cross-regional team.</li>
+            <li>Architected back-end RESTful APIs with Python and PostgreSQL on AWS EC2.</li>
+            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>
+            <li>Leveraged Redux, Context API, memoization, and lazy loading to optimize state management and rendering efficiency.</li>
+            <li>Implemented dynamic data visualization modules with Recharts to track and render real-time business KPIs across client dashboards.</li>
+            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location, notifications, payments, storage, and authentication.</li>
+            <li>Revamped UI/UX with Tailwind CSS, Module CSS, and Emotion.</li>
           </ul>
         </div>
 
@@ -177,7 +178,8 @@ export default function Home() {
           <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
-            <li>Specialized in MVC Patterns in C# ASP.NET (Client Server Option)</li>
+            <li>Client Server Option</li>
+            <li>Specialized in MVC Patterns in C# ASP.NET</li>
             <li>Graduated with Distinction (GPA 4.0+)</li>
           </ul>
         </div>
