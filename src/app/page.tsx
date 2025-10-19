@@ -20,7 +20,7 @@ export default function Home() {
           </a>
         </p>
         <p className="mt-4 max-w-xl mx-auto text-center">
-          Software Developer with 4+ years building scalable web and mobile applications, experienced in back-end services and API integrations. Strong
+          Software Developer with 5+ years building scalable web and mobile applications, experienced in back-end services and API integrations. Strong
           front-end expertise with proven ability to contribute across the full stack.
         </p>
       </header>
