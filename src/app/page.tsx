@@ -20,8 +20,8 @@ export default function Home() {
           </a>
         </p>
         <p className="mt-4 max-w-xl mx-auto text-center">
-          Software Developer with 5+ years building scalable web and mobile applications, experienced in back-end services and API integrations. Strong
-          front-end expertise with proven ability to contribute across the full stack.
+          Software Developer with 5+ years building web and mobile products in startup tech. Experienced in APIs, integrations, and shipping user-facing
+          features. Strong front-end expertise with proven end-to-end delivery.
         </p>
       </header>
 
@@ -32,19 +32,19 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
             <div>
               <h3 className="font-medium mb-1">Front-End</h3>
-              <p>React.js • React Native • Next.js • Expo • Redux • Context API • Memoization • Webpack • WebSocket • Recharts • Chart.js • Three.js</p>
+              <p>React.js • React Native • Next.js • Expo • Redux • Context API • Memoization • Webpack • WebSockets • Recharts • Chart.js • Three.js</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">UI & Styling</h3>
-              <p>CSS • Sass • Less • Tailwind • Module CSS • Emotion • Material UI • Atomic Design • Responsive & Mobile-first Design</p>
+              <p>CSS • Sass • Less • Tailwind • CSS Modules • Emotion • Material UI • Atomic Design • Responsive Design</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">Back-End & Cloud</h3>
-              <p>Node.js • Express • RESTful APIs • PostgreSQL • ASP.NET • Firebase • AWS (S3, Cognito, EC2) • Google APIs • Stripe • WordPress</p>
+              <p>Node.js • Express • REST APIs • PostgreSQL • ASP.NET • Firebase • AWS (EC2, S3, Cognito) • Google APIs • Stripe • WordPress</p>
             </div>
             <div>
               <h3 className="font-medium mb-1">Languages & Tools</h3>
-              <p>TypeScript • JavaScript (ES6+, ESNext) • Python • Java • C# • SQL • Jest • React Testing Library • GitHub Actions • Confluence • Jira</p>
+              <p>TypeScript • JavaScript (ES6+) • Python • Java • C# • SQL • Jest • React Testing Library • GitHub Actions • Jira • Confluence</p>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Home() {
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2021 – September 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Headed 4 major product launches –{" "}
+              Launched 4 platforms –{" "}
               <a href="https://apps.apple.com/ca/app/tuktu/id1588765065" className="underline hover:text-blue-500">
                 Tuktu
               </a>
@@ -75,15 +75,18 @@ export default function Home() {
               <a href="https://connect.tuktu.ai/" className="underline hover:text-blue-500">
                 Tuktu Connect
               </a>{" "}
-              – across web, iOS, and Android, supporting 5,000+ families and caregivers through 50,000+ hours of care services.
+              – across web, iOS, and Android, supporting 5,000+ families and caregivers and 50,000+ hours of care.
             </li>
             <li>Mentored 3 junior developers on a 6-person, cross-regional team.</li>
-            <li>Architected back-end RESTful APIs with Python and PostgreSQL on AWS EC2.</li>
-            <li>Engineered front-end features in React, Next.js, and TypeScript with Atomic Design.</li>
-            <li>Leveraged Redux, Context API, memoization, and lazy loading to optimize state management and rendering efficiency.</li>
-            <li>Implemented dynamic data visualization modules with Recharts to track and render real-time business KPIs across client dashboards.</li>
-            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location, notifications, payments, storage, and authentication.</li>
-            <li>Revamped UI/UX with Tailwind CSS, Module CSS, and Emotion.</li>
+            <li>
+              Implemented select API endpoints and helped design payloads and flows using Python and PostgreSQL on AWS EC2 for location services and scheduling.
+            </li>
+            <li>Built front-end features in React, Next.js, and TypeScript using Atomic Design.</li>
+            <li>Improved app performance using Redux, Context API, memoization, and lazy loading.</li>
+            <li>Built dashboards with Recharts to track care hours, engagement, and ops metrics.</li>
+            <li>Integrated Google Maps, Firebase, Stripe, and AWS APIs for location, notifications, payments, storage, and auth.</li>
+            <li>Refined UI/UX with Tailwind CSS, Module CSS, and Emotion.</li>
+            <li>Participated in code reviews and improved test coverage using Jest and React Testing Library.</li>
           </ul>
         </div>
 
@@ -92,14 +95,14 @@ export default function Home() {
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">January 2025 – August 2025</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
-              Developed{" "}
+              Built{" "}
               <a href="https://web.ekta.chat/" className="underline hover:text-blue-500">
                 Ekta Web
               </a>
-              , a mobile-first AI chatbot for farmers with Next.js, TypeScript, and Tailwind.
+              , a mobile-first AI chatbot platform for farmers using Next.js, TypeScript, and Tailwind.
             </li>
-            <li>Designed and implemented responsive voice recording, image capture, and file upload features for both mobile and desktop.</li>
-            <li>Collaborated with back-end to design and integrate OpenAI GPT APIs for chatbot functionality.</li>
+            <li>Designed responsive voice recording, image capture, and file upload features for mobile and desktop.</li>
+            <li>Integrated OpenAI GPT APIs and defined client-side data flows for chatbot interactions.</li>
           </ul>
         </div>
 
@@ -115,17 +118,16 @@ export default function Home() {
               , a responsive, SEO-friendly website using WordPress and custom themes.
             </li>
             <li>Managed hosting and deployment on DigitalOcean, ensuring stable uptime and performance.</li>
-            <li>Optimized content and layout for user experience and accessibility.</li>
           </ul>
         </div>
       </section>
 
       {/* Internships */}
       <section className="w-full max-w-4xl flex flex-col gap-8">
-        <h2 className="text-2xl font-semibold mb-4">Internships</h2>
+        <h2 className="text-2xl font-semibold mb-4">Internships / Early Experience</h2>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Software Developer Intern – Payment Source Inc., Vancouver, BC</h3>
+          <h3 className="font-bold text-lg mb-1">Software Developer – Payment Source, Vancouver, BC</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">March 2020 – May 2020</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
             <li>
@@ -133,24 +135,19 @@ export default function Home() {
               <a href="https://zenwallet.ca/cardlogin" className="underline hover:text-blue-500">
                 Zenwallet React/Redux web form
               </a>{" "}
-              for prepaid card transactions in a 3-person team, implementing Jest tests for rendering, form data, and API responses.
+              for prepaid card transactions in a 3-person team.
             </li>
+            <li>Implemented Jest tests for rendering, form data, and API responses.</li>
           </ul>
         </div>
 
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h3 className="font-bold text-lg mb-1">Software Developer – airG Inc., Vancouver, BC</h3>
+          <h3 className="font-bold text-lg mb-1">Software Developer – airG, Vancouver, BC</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2019 – December 2019</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
-            <li>
-              Assembled a screen mirroring solution to allow a presenter to mirror their smartphone screen onto a boardroom display. When idle, it showed
-              current and next scheduled meetings.
-            </li>
-            <li>Developed a boardroom screen mirroring system with idle meeting schedule display; built deployment scripts for easy mass rollout.</li>
-            <li>
-              Adapted LazyCast (Python) and RPiPlay (C++), and created an ASP.NET Core API on Raspberry Pi to fetch Exchange schedules; added VPN support and
-              MAC filtering for secure remote presentations.
-            </li>
+            <li>Assembled a screen mirroring solution to allow smartphone screens to display on boardroom monitors.</li>
+            <li>Built deployment scripts for mass rollout; adapted LazyCast (Python) and RPiPlay (C++).</li>
+            <li>Developed ASP.NET Core API on Raspberry Pi to fetch Exchange schedules; added VPN support and MAC filtering.</li>
           </ul>
         </div>
       </section>
@@ -175,10 +172,10 @@ export default function Home() {
       <section className="w-full max-w-4xl flex flex-col gap-8">
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <p className="font-medium">Diploma in Computer Systems Technology – British Columbia Institute of Technology, Burnaby, BC</p>
+          <p className="font-medium">British Columbia Institute of Technology, Burnaby, BC</p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">September 2018 – June 2020</p>
+          <p className="text-sm mb-2">Diploma in Computer Systems Technology – Client Server Option</p>
           <ul className="list-disc list-inside space-y-2 text-sm">
-            <li>Client Server Option</li>
             <li>Specialized in MVC Patterns in C# ASP.NET</li>
             <li>Graduated with Distinction (GPA 4.0+)</li>
           </ul>
