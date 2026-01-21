@@ -6,7 +6,7 @@ export default function Home() {
         <p className="text-xl text-gray-600 dark:text-gray-400">Software Developer</p>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           Vancouver, BC •{" "}
-          <a href="mailto:mdandaya.dev@gmail.com" className="underline hover:text-blue-500">
+          <a href="mailto:mdandaya.work@gmail.com" className="underline hover:text-blue-500">
             mdandaya.dev@gmail.com
           </a>
         </p>
